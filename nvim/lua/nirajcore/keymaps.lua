@@ -47,5 +47,7 @@ map("n", "<leader>c", ":nohlsearch<CR>", opts)
 -- file explorer shortcut
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
-
+-- niruRun's shortcut
+local run = require("niruRun").niruRun
+map("n", "<leader>rr", run, opts)
 

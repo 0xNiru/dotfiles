@@ -51,3 +51,21 @@ map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 local run = require("niruRun").niruRun
 map("n", "<leader>rr", run, opts)
 
+ 
+-- competitive programming setup
+
+-- Fetch single problem testcases
+map("n", "<leader>cp", ":CompetiTest receive problem<CR>")
+
+-- Fetch whole contest testcases
+map("n", "<leader>cc", ":CompetiTest receive contest<CR>")
+
+-- Run code against all testcases
+map("n", "<leader>cr", ":CompetiTest run<CR>")
+
+
+-- Open Testcase Manager UI
+map("n", "<leader>ct", ":CompetiTest show_ui<CR>")
+
+
+-- cf snippet 

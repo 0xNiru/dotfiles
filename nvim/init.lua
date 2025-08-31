@@ -3,4 +3,4 @@ require("nirajcore")
 require("config.lazy")
 require("plugins")
 require("niruRun")
-
+require('competitest').setup()
